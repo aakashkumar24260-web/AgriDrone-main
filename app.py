@@ -24,7 +24,16 @@ st.set_page_config(
 )
 
 # ── Session State Initialization ─────────────────────────────────
-
+if "scan_complete" not in st.session_state:
+    st.session_state.scan_complete = False
+    st.session_state.scanned_grid = None
+    st.session_state.path = []
+    st.session_state.metrics = {
+        "total": 0, "healthy": 0, "early": 0, "severe": 0
+    }
+    st.session_state.current_field = None
+    st.session_state.current_field_name = "flat_farm.json"
+    st.session_state.crop_type = "Wheat"
 
 # ── Load Model (cached) ──────────────────────────────────────────
 @st.cache_resource
