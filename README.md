@@ -5,8 +5,15 @@
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.4.0-orange.svg)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
----
 
+# Group Members
+
+| S. No. | Name             | Roll No.        |
+|--------:|------------------|-----------------|
+| 1 | Aakash Kumar      | 2K23/CSME/01 |
+| 2 | Pawan Kumar       | 2K23/CSME/39 |
+| 3 | M. Haneef Memon   | 2K23/CSME/29 |
+---
 ## 📋 Table of Contents
 - [Project Overview](#-project-overview)
 - [Features](#-features)
