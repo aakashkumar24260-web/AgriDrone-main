@@ -1,0 +1,27 @@
+{
+  "name": "Flat Farm Layout",
+  "crop_type": "Wheat",
+  "grid_configuration": {
+    "rows": 25,
+    "cols": 25,
+    "drone_start": [0, 0]
+  },
+  "obstacles": [],
+  "disease_seeds": [
+    {
+      "cell": [5, 5],
+      "type": "early",
+      "spread_radius": 2
+    },
+    {
+      "cell": [18, 3],
+      "type": "severe",
+      "spread_radius": 3
+    },
+    {
+      "cell": [12, 20],
+      "type": "early",
+      "spread_radius": 2
+    }
+  ]
+}
