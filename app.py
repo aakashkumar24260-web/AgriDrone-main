@@ -55,7 +55,16 @@ def load_model():
         import joblib
         return joblib.load(model_path)
 
-
+def predict_disease(ndvi_value: float, crop_type: str) -> int:
+    """Predict disease class from NDVI value using thresholds."""
+    thresholds = config.NDVI_THRESHOLDS.get(crop_type, config.NDVI_THRESHOLDS["Wheat"])
+    
+    if ndvi_value >= thresholds["healthy_min"]:
+        return 0  # Healthy
+    elif ndvi_value >= thresholds["early_min"]:
+        return 1  # Early Disease
+    else:
+        return 2  # Severe Disease
 
 def create_feature_vector(ndvi: float, red: float, green: float, texture: float, moisture: float) -> np.ndarray:
     """Create feature vector for prediction."""
