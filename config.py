@@ -8,7 +8,7 @@ BASE_DIR = Path(__file__).parent
 MODELS_DIR = BASE_DIR / "models"
 DATA_DIR = BASE_DIR / "data"
 RESULTS_DIR = BASE_DIR / "results"
-
+#Avinash
 # NDVI thresholds per crop
 NDVI_THRESHOLDS = {
     "Wheat": {"healthy_min": 0.6, "early_min": 0.35, "severe_min": 0.1},
