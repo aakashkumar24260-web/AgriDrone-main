@@ -117,3 +117,14 @@ streamlit run app.py
        alt="System Architecture"
        width="1000">
 </p>
+
+## Screenshots
+
+### 1. Home Screen
+![Home Screen](screenshots/1_home.jpg)
+
+### 2. After Drone Scan
+![Scan Result](screenshots/2_scan_result.jpg)
+
+### 3. AI Field Report
+![AI Report](screenshots/3_AI_report.jpg)
