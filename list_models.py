@@ -12,7 +12,7 @@ if not api_key:
     exit()
 
 try:
-    # Get list of all models
+    # Get list of all models test comment from haneef
     response = requests.get(
         url="https://openrouter.ai/api/v1/models",
         headers={
